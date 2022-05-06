@@ -14,10 +14,10 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-  
   background-color: #f2f2f2;
   display:flex;
   margin: 0 0 100px 0;
+  
 }
 
 .logo {
@@ -112,6 +112,8 @@ line-height: 1.2;
 font-size: 18px;
 font-weight: normal;
 color: #2f80ed;
+margin: 0;
+padding: 0;
 }
 
 .two-columns__main-text {
@@ -151,7 +153,7 @@ color: #2f80ed;
 
 .section-subtitle {
   width:60%;
-  margin: auto auto 60px auto;
+  margin: auto;
   text-align: center;
   font-size: 24px;
  line-height: 34px;
@@ -162,17 +164,20 @@ color: #2f80ed;
   display: flex;
   width:1100px;
   margin: auto;
+  flex-direction: row;
   justify-content: space-around;
   list-style: none;
   align-content: space-between;
   flex-wrap: wrap;
   min-height: 371px;
   padding: 0;
+
 }
 
 .table__cell {
   width: 250px;
   padding: 0;
+  margin: 60px 0 0;
 }
 
 .table__heading {
@@ -186,12 +191,12 @@ color: #2f80ed;
   font-size: 18px;
  line-height: 1.2;
  font-weight: normal;
- margin: 0 0 20px 0;
+ margin: 0;
 
 }
 
 .table__text_no-bottom-margin {
-  margin: 0;
+  margin: 20px 0 0 0;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -239,7 +244,7 @@ color: #2f80ed;
   position: absolute;
   right:0;
   top:50%;
-  margin: auto 48px;
+  margin: 0 48px 0 0;
   font-size: 36px;
  line-height: 51px;
  font-weight: normal;
